@@ -67,6 +67,8 @@ input::-moz-focus-inner {
 	text-align: center;
 }
 
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2575,24 +2577,24 @@ input::-moz-focus-inner {
 /* Main */
 
 	#main {
-		color: #636363;
+		color: #383838;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #383838;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #383838;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #383838;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #383838;
 		}
 
 
@@ -2832,7 +2834,7 @@ input::-moz-focus-inner {
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
-
+		.pfont{font-size: 14px;}
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
@@ -2933,6 +2935,7 @@ input::-moz-focus-inner {
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
+			color: #636363;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2959,7 +2962,7 @@ input::-moz-focus-inner {
 				}
 
 				#footer .copyright {
-					text-align: left;
+					text-align: center;
 				}
 
 		}
