@@ -142,7 +142,7 @@ input::-moz-focus-inner {
 
 		}
 
-	
+		
 
 		a:hover {
 			border-bottom-color: transparent;
@@ -154,6 +154,10 @@ input::-moz-focus-inner {
 
 	em, i {
 		font-style: italic;
+	}
+
+	a {
+		color: #000000;
 	}
 
 	p {
@@ -173,7 +177,7 @@ input::-moz-focus-inner {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -287,6 +291,7 @@ input::-moz-focus-inner {
 
 	a:hover {
 		color: #ffffff;
+		font-weight: bold;
 	}
 
 	strong, b {
@@ -2834,7 +2839,7 @@ input::-moz-focus-inner {
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
-		.pfont{font-size: 14px;}
+		.pfont{font-size: 17px;}
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
