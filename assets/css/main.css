@@ -28,10 +28,6 @@ body {
 	background-color: #ffffff;
 }
 
-.img{
-	border-radius: 50%;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -2485,6 +2481,7 @@ input::-moz-focus-inner {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				border-radius: 50%;
 			}
 
 				#header.alt .logo img {
